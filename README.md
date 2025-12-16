@@ -4,9 +4,6 @@
 >
 > | OS Version   | Compatibility     |
 > | ------------ | ----------------- |
-> | Ubuntu 20.04 | ✅ Fully Supported |
-> | Ubuntu 22.04 | ✅ Fully Supported |
-> | Ubuntu 24.04 | ✅ Fully Supported |
 > | macOS (Intel/ARM)| ✅ Fully Supported |
 >
 > All tools used here (kubectx, kubens, fzf, oh-my-zsh, and Powerlevel10k) work seamlessly on these platforms without modification.
