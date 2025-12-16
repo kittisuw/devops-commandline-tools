@@ -195,4 +195,3 @@ Then simply run:
 ```bash
 k9s
 ```
-koi
