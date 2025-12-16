@@ -30,10 +30,6 @@ kubectl version --client
 ```bash
 brew install kubectx
 brew info kubectx
-#Switch contexts (clusters)
-kubectx
-#Switc Namespace
-kubeben
 ```
 #### What are `kubectx` and `kubens`?
 
