@@ -12,6 +12,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew -v
 ```
+> https://brew.sh/
 ### 2. Install Git 
 ```bash
 brew install git
