@@ -106,24 +106,6 @@ function kns() {
 }
 ```
 
-#### For Bash (`~/.bashrc`):
-
-```bash
-# Fuzzy kubectx with fzf
-ktx() {
-  local ctx
-  ctx=$(kubectx | fzf --prompt="K8s Context> " --height=40%) && kubectx "$ctx"
-}
-
-# Fuzzy kubens with fzf
-kns() {
-  local ns
-  ns=$(kubens | fzf --prompt="Namespace> " --height=40%) && kubens "$ns"
-}
-```
-
----
-
 ### 6. Reload the Shell
 
 #### Zsh:
