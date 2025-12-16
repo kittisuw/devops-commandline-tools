@@ -54,7 +54,7 @@ Here's a **`kubectx`** demo:
 ```
 brew install fzf
 ```
-![kubens demo GIF](img/kubctx-interactive.gif)
+![kubectx interactive demo GIF](img/kubectx-interactive.gif)
 
 
 ###################
