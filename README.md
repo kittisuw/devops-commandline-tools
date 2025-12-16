@@ -35,7 +35,7 @@ kubectx
 #Switc Namespace
 kubeben
 ```
-## What are `kubectx` and `kubens`?
+#### What are `kubectx` and `kubens`?
 
 **kubectx** is a tool to switch between contexts (clusters) on kubectl
 faster.<br/>
