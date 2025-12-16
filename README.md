@@ -196,10 +196,3 @@ Then simply run:
 k9s
 ```
 
----
-
-### 🔗 Reference Links
-
-* kubectx & kubens: [https://github.com/ahmetb/kubectx](https://github.com/ahmetb/kubectx)
-* fzf: [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
-
