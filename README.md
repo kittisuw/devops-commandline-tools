@@ -30,6 +30,10 @@ kubectl version --client
 ```bash
 brew install kubectx
 brew info kubectx
+#Switch contexts (clusters)
+kubectx
+#Switc Namespace
+kubeben
 ```
 > https://github.com/ahmetb/kubectx
 
