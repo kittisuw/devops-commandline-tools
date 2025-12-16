@@ -15,8 +15,6 @@ brew -v
 ### 2. Install Git 
 ```bash
 brew install git
-```
-brew install git
 git --version
 ```
 ### 1. Install Oh My ZSH
