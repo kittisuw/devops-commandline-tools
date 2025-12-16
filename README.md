@@ -10,7 +10,23 @@
 > | macOS (Intel/ARM)| ✅ Fully Supported |
 >
 > All tools used here (kubectx, kubens, fzf, oh-my-zsh, and Powerlevel10k) work seamlessly on these platforms without modification.
-
+### 1. Install Homebrew Package Manager for macOS
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew -v
+```
+### 2. Install Git 
+```bash
+brew install git
+```
+brew install git
+git --version
+```
+### 1. Install Oh My ZSH
+```bash
+brew install zsh
+zsh --version
+```
 ### 1. Install kubectx, kubens, and fzf
 
 ```bash
