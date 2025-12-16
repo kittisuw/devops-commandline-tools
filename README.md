@@ -26,7 +26,7 @@ kubectl version --client
 ```
 > https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/
 
-### 4. kubectx + kubens: Power tools for kubectl
+### 4. Install kubectx + kubens: Power tools for kubectl
 ```bash
 brew install kubectx
 brew info kubectx
@@ -35,7 +35,6 @@ kubectx
 #Switc Namespace
 kubeben
 ```
-
 ## What are `kubectx` and `kubens`?
 
 **kubectx** is a tool to switch between contexts (clusters) on kubectl
@@ -50,6 +49,15 @@ Here's a **`kubectx`** demo:
 ![kubens demo GIF](img/kubens-demo.gif)
 
 > https://github.com/ahmetb/kubectx
+
+### 5. Install fzf for using kubectx, kubens interactive
+```
+brew install fzf
+```
+![kubens demo GIF](img/kubctx-interactive.gif)
+
+
+###################
 
 
 ### 5. Install Oh My ZSH
