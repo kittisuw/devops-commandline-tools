@@ -186,21 +186,6 @@ k9s
 `k9s` is a powerful terminal-based UI to manage Kubernetes clusters more interactively.
 
 #### Install k9s (Latest Binary Method):
-
-```bash
-curl -sSLo k9s.tar.gz https://github.com/derailed/k9s/releases/latest/download/k9s_Linux_amd64.tar.gz
-mkdir -p ~/.local/bin && tar -xzf k9s.tar.gz -C ~/.local/bin
-chmod +x ~/.local/bin/k9s
-```
-
-Add to your PATH if not already:
-
-```bash
-echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc  # or ~/.zshrc
-```
-
-#### Or Install via Homebrew (on macOS/Linux):
-
 ```bash
 brew install k9s
 ```
