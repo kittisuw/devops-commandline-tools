@@ -1,4 +1,4 @@
-## 🧰 Install kubectx, kubens, and fzf with Oh-My-Zsh, Powerlevel10k
+## 🧰 Install DevOps command line tools
 
 > ✅ This setup is tested and compatible with the following OS versions:
 >
