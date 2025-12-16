@@ -59,56 +59,26 @@ brew install fzf
 
 ###################
 
-
 ### 5. Install Oh My ZSH
 ```bash
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 > https://ohmyz.sh/#install
 
-```bash
-# Install fzf
-sudo apt install fzf -y
-```
-
----
-
 ### 2. Set up Aliases in Shell Config
 
 #### For Zsh:
-
 Open `.zshrc`:
-
 ```bash
 vi ~/.zshrc
 ```
-
 Add:
-
-```zsh
-# kubectx and kubens shortcut aliases
-alias ktx='kubectx'
-alias kns='kubens'
-alias k='kubectl'
-```
-
-#### For Bash:
-
-Open `.bashrc`:
-
-```bash
-vi ~/.bashrc
-```
-
-Add:
-
 ```bash
 # kubectx and kubens shortcut aliases
 alias ktx='kubectx'
 alias kns='kubens'
 alias k='kubectl'
 ```
-
 ---
 
 ### 3. Enable Auto-completion for kubectx and kubens
@@ -121,26 +91,6 @@ source <(kubectx completion zsh)
 source <(kubens completion zsh)
 ```
 
-#### For Bash:
-
-```bash
-# kubectx/kubens completion for bash
-source <(kubectx completion bash)
-source <(kubens completion bash)
-```
-
----
-
-### 4. Install fzf with full feature support
-
-```bash
-git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
-~/.fzf/install
-```
-
-Select `yes` for all prompts to enable key-bindings and completion.
-
----
 
 ### 5. Add fzf-based ktx/kns Functions
 
