@@ -4,7 +4,7 @@
 >
 > | OS Version   | Compatibility     |
 > | ------------ | ----------------- |
-> | macOS (Intel/ARM)| ✅ Fully Supported |
+> | macOS | ✅ Fully Supported |
 >
 > All tools used here (kubectx, kubens, fzf, oh-my-zsh, and Powerlevel10k) work seamlessly on these platforms without modification.
 ### 1. Install Homebrew Package Manager for macOS
