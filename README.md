@@ -25,17 +25,19 @@ kubectl version --client
 ```
 > https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/
 
-### 3. Install Oh My ZSH
-```bash
-brew install zsh
-zsh --version
-```
 ### 4. kubectx + kubens: Power tools for kubectl
-
 ```bash
 brew install kubectx
+brew info kubectx
 ```
+> https://github.com/ahmetb/kubectx
 
+
+### 5. Install Oh My ZSH
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+> https://ohmyz.sh/#install
 
 ```bash
 # Install fzf
