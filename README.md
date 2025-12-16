@@ -35,6 +35,20 @@ kubectx
 #Switc Namespace
 kubeben
 ```
+
+## What are `kubectx` and `kubens`?
+
+**kubectx** is a tool to switch between contexts (clusters) on kubectl
+faster.<br/>
+**kubens** is a tool to switch between Kubernetes namespaces (and
+configure them for kubectl) easily.
+
+Here's a **`kubectx`** demo:
+![kubectx demo GIF](img/kubectx-demo.gif)
+
+...and here's a **`kubens`** demo:
+![kubens demo GIF](img/kubens-demo.gif)
+
 > https://github.com/ahmetb/kubectx
 
 
