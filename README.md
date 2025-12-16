@@ -15,20 +15,29 @@ brew -v
 ### 2. Install Git 
 ```bash
 brew install git
-git --version
+git -v
 ```
-### 1. Install Oh My ZSH
+> https://git-scm.com/install/mac
+### 3. Install kubectl 
+```bash
+brew install kubectl
+kubectl version --client
+```
+> https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/
+
+### 3. Install Oh My ZSH
 ```bash
 brew install zsh
 zsh --version
 ```
-### 1. Install kubectx, kubens, and fzf
+### 4. kubectx + kubens: Power tools for kubectl
 
 ```bash
-sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
-sudo ln -s /opt/kubectx/kubectx /usr/local/bin/kubectx
-sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
+brew install kubectx
+```
 
+
+```bash
 # Install fzf
 sudo apt install fzf -y
 ```
